@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="STEPS | Multipurpose Working Wizard with Branches">
+    <meta name="author" content="Ansonika">
+    <title>Rig 'Em Up | Find Your Rig</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/vendors.min.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons.min.css" rel="stylesheet">
+	<link href="css/skins/square/grey.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+	
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+
+</head>
+
+<body>
+	
+	
+	
+	<header>
+		<div class="container-fluid">
+		    <div class="row">
+                <div class="col-3">
+                    <div id="logo_home">
+                        <h1><a href="index.html">Rig 'Em Up | Find Your Rig</a></h1>
+                    </div>
+                </div>
+               
+            </div>
+		</div>
+		<!-- /container -->
+	</header>
+	<!-- /Header -->
+	
+	<main>
+		<div class="container">
+			<div id="wizard_container">
+				<form name="example-1" id="wrapped" method="POST">
+					<input id="website" name="website" type="text" value="">
+					<!-- Leave input above for security protection, read docs for details -->
+					<div id="middle-wizard">
+						
+						<!-- First branch What Type of Project ============================== -->
+						<div class="step" data-state="branchtype" id="start">
+							<div class="question_title">
+								<h3>Where are you going fishing?</h3>
+								
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item" id="saltwaterChoice">
+										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
+										<label for="answer_1"><img src="img/icon-saltwater.png" alt=""><strong>Saltwater</strong></label>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item" id="freshwaterChoice">
+										<input id="answer_2" name="branch_1_group_1" type="radio" value="freshwaterFish" class="required">
+										<label for="answer_2"><img src="img/icon-freshwater.png" alt=""><strong>Freshwater</strong></label>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item" id="brackishChoice">
+										<input id="answer_3" name="branch_1_group_1" type="radio" value="brackish-fish" class="required">
+										<label for="answer_3"><img src="img/icon-brackish.png" alt=""><strong>Brackish Water</strong></label>
+									</div>
+								</div>
+							</div>
+							
+							<!-- /row-->
+						</div>
+						<!-- /First branch What Type of Project ============================== -->
+						
+						<!-- /What Type of Project > Seo-Optimization ============================== -->
+						<div class="branch" id="Seo-Optimization">
+							<div class="step" data-state="branchtype">
+								<div class="question_title">
+									<h3>Where are you going fishing???</h3>
+									
+								</div>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="item" id="saltwaterChoice">
+											<input id="branch_1_answer_1" type="radio" name="branch_1_answers[]" value="News" class="required">
+											<label for="branch_1_answer_1"><img src="img/icon-inshore.png" alt=""><strong>Inshore</strong></label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item" id="freshwaterChoice">
+											<input id="branch_2_answer_2" name="branch_1_answers[]" type="radio" value="News" class="required">
+											<label for="branch_2_answer_2"><img src="img/icon-offshore.png" alt=""><strong>Offshore</strong></label>
+										</div>
+										
+								<!-- /row-->
+							</div>
+							<!-- /step -->
+						</div>
+						</div>
+						</div>
+						<!--New-->
+						<div class="branch" id="News">
+							<div class="step" data-state="branchtype">
+								<div class="question_title">
+									<h3>Looks like you might be fishing for some of these...</h3>
+									<div class="fish"><a class="dfn-hover" href=""><dfn data-info="Catfish can be fished here:">Catfish</dfn></a>&nbsp<dfn data-info="JavaScript is the programming language of HTML and the Web."> Cobia</dfn>&nbsp
+										<dfn data-info="Red Drum can be fished here:">Red Drum</dfn></a>&nbsp<dfn data-info="Black Drum can be fished here:">Black Drum</dfn></a>&nbsp
+										<dfn data-info="Flounder can be fished here:">Flounder</dfn></a>&nbsp<dfn data-info="Grouper can be fished here:">Grouper</dfn></a>&nbsp
+										<dfn data-info="Grunt can be fished here:">Grunt</dfn></a>&nbsp<dfn data-info="Amberjack can be fished here:">Amberjack</dfn></a>&nbsp
+										<dfn data-info="Jack can be fished here:">Jack</dfn></a>&nbsp<dfn data-info="Ladyfish can be fished here:">Ladyfish</dfn></a>&nbsp
+										<dfn data-info="Mullet can be fished here:">Mullet</dfn></a>&nbsp<dfn data-info="Perch can be fished here:">Perchfish</dfn></p></a>&nbsp
+										<dfn data-info="Pinfish can be fished here:">Pinfish</dfn></a>&nbsp<dfn data-info="Sea Bass can be fished here:">Sea Bass</dfn></a>&nbsp
+										<dfn data-info="Sea Trout can be fished here:">Sea Trout</dfn></a>&nbsp<dfn data-info="Sheepshead can be fished here:">Sheepshead</dfn></a>&nbsp
+										<dfn data-info="Snapper can be fished here:">Snapper</dfn></a>&nbsp<dfn data-info="Snook can be fished here:">Snook</dfn></a>&nbsp
+										<dfn data-info="Rapon can be fished here:">Rapon</dfn></a>&nbsp<dfn data-info="Tripletail can be fished here:">Tripletail</dfn></a>&nbsp</div>
+									</div>
+									<h3>Did we get that right?</h3>
+									<p style="text-align:center">Select "YES" to proceed. Otherwise, select "NO"</p>
+										<div class="row" id="yesno">
+											
+											<div class="col-lg-4">
+												<div class="item" id="nope">
+													<input id="branch_4_answer_1" type="radio" name="branch_1_answers[]" value="fish-style" class="required">
+													<label class="yep" for="branch_4_answer_1"><strong>Yes</strong></label>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="item" id="yep">
+													<input id="branch_4_answer_2" name="branch_1_answers[]" type="radio" value="Seo-Optimization" class="required">
+													<label class="yep" for="branch_4_answer_2"><strong>No</strong></label>
+												</div>
+												
+										<!-- /row-->
+									</div>
+									<!-- /step -->
+								</div>	
+								
+								
+								
+									
+							<!-- /step -->
+						
+						</div>
+						</div>
+
+						<div class="branch" id="freshwaterFish">
+							<div class="step" data-state="branchtype">
+								<div class="question_title">
+									<h3>Looks like you might be fishing for some of these...</h3>
+									<div class="fish"><a class="dfn-hover" href=""><dfn data-info="Bass can be fished here:">Bass</dfn></a>&nbsp<dfn data-info="Bluegill can be fished here:"> Bluegill</dfn>&nbsp
+										<dfn data-info="Carp can be fished here:">Carp</dfn></a>&nbsp<dfn data-info="Catfish can be fished here:">Catfish</dfn></a>&nbsp
+										<dfn data-info="Cichlid can be fished here:">Cichlid</dfn></a>&nbsp<dfn data-info="Crappie can be fished here:">Crappie</dfn></a>&nbsp
+										<dfn data-info="Gar can be fished here:">Gar</dfn></a>&nbsp<dfn data-info="Herring can be fished here:">Herring</dfn></a>&nbsp
+										<dfn data-info="Sunfish can be fished here:">Sunfish</dfn></a>&nbsp<dfn data-info="Tilapia can be fished here:">Tilapia</dfn></a>&nbsp
+										<dfn data-info="Bowfin can be fished here:">Bowfin</dfn></a>&nbsp<dfn data-info="Shad can be fished here:">Shad</dfn></a>&nbsp
+										
+										
+										</div>
+										<h3>Did we get that right?</h3>
+										<p style="text-align:center">Select "YES" to proceed. Otherwise, select "NO"</p>
+										<div class="row" id="yesno">
+											<div class="col-lg-4">
+												<div class="item" id="nope">
+													<input id="branch_9_answer_1" type="radio" name="branch_4_answers[]" value="fish-style-freshwater" class="required">
+													<label class="yep" for="branch_9_answer_1"><strong>Yes</strong></label>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="item" id="yep">
+													<input id="branch_9_answer_2" name="branch_4_answers[]" type="radio" value="start" class="required">
+													<label class="yep" for="branch_9_answer_2"><strong>No</strong></label>
+												</div>
+												
+										<!-- /row-->
+									</div>
+									<!-- /step -->
+								</div>	
+								
+								
+								
+									
+							<!-- /step -->
+						
+						</div>
+						</div>
+<!--Step-->
+
+<div class="branch" id="brackish-fish">
+	<div class="step" data-state="branchtype">
+		<div class="question_title">
+			<h3>Looks like you might be fishing for some of these...</h3>
+			<div class="fish"><a class="dfn-hover" href=""><dfn data-info="Snook can be fished here:">Snook</dfn></a>&nbsp<dfn data-info="Tarpon can be fished here:"> Tarpon</dfn>&nbsp
+				<dfn data-info="Red Drum can be fished here:">Red Drum</dfn></a>&nbsp<dfn data-info="Sheepshead can be fished here:">Sheepshead</dfn></a>&nbsp
+				<dfn data-info="Large Mouth Bass can be fished here:">Large Mouth Bass</dfn></a>&nbsp<dfn data-info="Channel Catfish can be fished here:">Channel Catfish</dfn></a>&nbsp
+				<dfn data-info="Peacock Bass can be fished here:">Peacock Bass Bass</dfn></a>&nbsp<dfn data-info="Striped Bass can be fished here:">Striped Bass</dfn></a>&nbsp
+			</div>
+			<h3>Did we get that right?</h3>
+			<p style="text-align:center">Select "YES" to proceed. Otherwise, select "NO"</p>
+				<div class="row" id="yesno">
+					
+					<div class="col-lg-4">
+						<div class="item" id="nope">
+							<input id="branch_10_answer_1" type="radio" name="branch_10_answers[]" value="fish-style-brackish" class="required">
+							<label class="yep" for="branch_10_answer_1"><strong>Yes</strong></label>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item" id="yep">
+							<input id="branch_10_answer_2" name="branch_10_answers[]" type="radio" value="start" class="required">
+							<label class="yep" for="branch_10_answer_2"><strong>No</strong></label>
+						</div>
+						
+				<!-- /row-->
+			</div>
+			<!-- /step -->
+		</div>	
+		
+		
+		
+			
+	<!-- /step -->
+
+</div>
+</div>
+								<!-- /What Type of Project > Seo-Optimization ============================== -->
+								<div class="branch" id="fish-style">
+									<div class="step" data-state="branchtype">
+										<div class="question_title">
+											<h3>What's your style?</h3>
+											
+										</div>
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="item" id="saltwaterChoice">
+													<input id="branch_5_answer_1" type="radio" name="branch_1_answers[]" value="inshore-spin" class="required">
+													<label for="branch_5_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="item" id="freshwaterChoice">
+													<input id="branch_5_answer_3" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
+													<label for="branch_5_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong></label>
+												</div>
+												
+										<!-- /row-->
+									</div>
+									<div class="col-lg-4">
+										<div class="item" id="freshwaterChoice">
+											<input id="branch_5_answer_2" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
+											<label for="branch_5_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+										</div>
+										</div>
+										
+							
+							</div>
+							</div>
+							</div>
+							
+						<!-- /What Type of Project > Seo-Optimization ============================== -->
+	<!-- /What Type of Project > Seo-Optimization ============================== -->
+	<div class="branch" id="fish-style-freshwater">
+		<div class="step" data-state="branchtype">
+			<div class="question_title">
+				<h3>What's your style?</h3>
+				
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="item" id="saltwaterChoice">
+						<input id="branch_6_answer_1" type="radio" name="branch_1_answers[]" value="inshore-spin" class="required">
+						<label for="branch_6_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="item" id="freshwaterChoice">
+						<input id="branch_6_answer_3" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
+						<label for="branch_6_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong></label>
+					</div>
+					
+			<!-- /row-->
+		</div>
+		<div class="col-lg-4">
+			<div class="item" id="freshwaterChoice">
+				<input id="branch_6_answer_2" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
+				<label for="branch_6_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+			</div>
+			</div>
+			
+
+</div>
+</div>
+</div>
+
+	<!-- /What Type of Project > Seo-Optimization ============================== -->
+	<div class="branch" id="fish-style-brackish">
+		<div class="step" data-state="branchtype">
+			<div class="question_title">
+				<h3>What's your style?</h3>
+				
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="item" id="saltwaterChoice">
+						<input id="branch_10_answer_3" type="radio" name="branch_4_answers[]" value="inshore-spin" class="required">
+						<label for="branch_10_answer_3"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+					</div>
+				</div>
+			
+		<div class="col-lg-4">
+			<div class="item" id="freshwaterChoice">
+				<input id="branch_10_answer_4" name="branch_4_answers[]" type="radio" value="inshore-spin" class="required">
+				<label for="branch_10_answer_4"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+			</div>
+			</div>
+			
+
+</div>
+</div>
+</div>
+
+<!-- /What Type of Project > Seo-Optimization ============================== -->
+
+						<div></div>
+									<!-- Second branch Web-Development ============================== -->
+									<div class="step submit" id="inshore-bait">
+							
+										<div class="question_title">
+											<h3>Our picks for you (bait):</h3>
+											
+										</div>
+										<div class="row">
+											<div class="col-lg-4">
+												<div class="item">
+													<div class="rod">
+													<input id="branch_8_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+													<label for="branch_8_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+												</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="item">
+													<div class="rod">
+													<input id="branch_8_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+													<label for="branch_8_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+												</div>
+												</div>
+											</div>
+											<div class="col-lg-4">
+												<div class="item">
+													<div class="rod">
+													<input id="branch_8_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+													<label for="branch_8_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+												</div>
+												</div>
+											</div>
+										</div>
+										
+									
+								</div>
+	<div></div>
+						<!-- Second branch Web-Development ============================== -->
+						<div class="submit step" id="inshore-fly">
+							
+							<div class="question_title">
+								<h3>Our picks for you:</h3>
+								
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+										<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+										<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+										<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+							</div>
+							
+						
+					</div>
+						
+
+
+						<!-- Second branch Web-Development ============================== -->
+		
+						<!-- /Second branch Web-Development ============================== -->
+
+											
+						<!-- Web-Development > HTML-Development ============================== -->
+						<div class="branch" id="HTML-Development">
+							<div class="step" data-state="budget">
+								<div class="question_title">
+									<h3>Web Development: HTML Development</h3>
+									<p>Multiple Selection (Checkbox based)</p>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-5">
+										<div class="box_general">
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Responsive">Responsive</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Boostrap">Boostrap 4.0 based</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Jquery">Jquery 3</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_1_answers[]" class="icheck required" value="Google Web Font">Google Web Font</label>
+											</div>
+											<hr>
+											<h6 class="add_bottom_15">How many pages?</h6>
+											<div class="form-group">
+												<div class="qty-buttons">
+													<input type="button" value="+" class="qtyplus" name="home_page">
+													<input type="text" name="home_page" value="" class="qty form-control required" placeholder="Home page">
+													<input type="button" value="-" class="qtyminus" name="home_page">
+												</div>
+											</div>
+											<div class="form-group">
+												<div class="qty-buttons">
+													<input type="button" value="+" class="qtyplus" name="inner_pages">
+													<input type="text" name="inner_pages" value="" class="qty form-control required" placeholder="Inner pages">
+													<input type="button" value="-" class="qtyminus" name="inner_pages">
+												</div>
+											</div>
+											<h6 class="add_bottom_15">Any particular notes?</h6>
+											<textarea class="form-control" style="height:100px; margin-bottom:0;" placeholder="Typer here" name="html_development_notes"></textarea>
+										</div>
+										<!-- /box_general -->
+									</div>
+								</div>
+								<!-- /row -->
+							</div>
+						</div>
+						<!-- /Web-Development > HTML-Development ============================== -->
+						<div class="submit step" id="inshore-spin">
+							
+							<div class="question_title">
+								<h3>Our picks for you:</h3>
+								
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+										<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+										<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+										<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+							</div>
+							
+						
+					</div>
+						<!-- Web-Development > CMS-Development ============================== -->
+						<div class="branch" id="CMS-Development">
+							<div class="step" data-state="budget">
+								<div class="question_title">
+									<h3>Web Development: CMS Development</h3>
+									<p>Multiple Selection (Checkbox based)</p>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-5">
+										<div class="box_general">
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="WordPress">WordPress</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Magento">Magento</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Drupal">Drupal</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="Joomla">Joomla</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_2_answers[]" class="icheck required" value="PrestaShop">PrestaShop</label>
+											</div>
+											<hr>
+											<h6 class="add_bottom_15">Any particular notes?</h6>
+											<textarea class="form-control" style="height:100px; margin-bottom:0;" placeholder="Typer here" name="cms_development_notes"></textarea>
+										</div>
+										<!-- /box_general -->
+									</div>
+								</div>
+								<!-- /row -->
+							</div>
+						</div>
+						<!-- /Web-Development > CMS-Development ============================== -->
+						
+						<!-- Web-Development > FrontEnd-Development ============================== -->
+						<div class="branch" id="FrontEnd-Development">
+							<div class="step" data-state="budget">
+								<div class="question_title">
+									<h3>Web Development: FrontEnd Development</h3>
+									<p>Multiple Selection (Checkbox based)</p>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-5">
+										<div class="box_general">
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_3_answers[]" class="icheck required" value="Jquery">Jquery</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_3_answers[]" class="icheck required" value="Angularjs 2">Angularjs 2</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_3_answers[]" class="icheck required" value="Angularjs 4">Angularjs 4</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_3_answers[]" class="icheck required" value="Reactjs">Reactjs</label>
+											</div>
+											<div class="form-group short">
+												<label><input type="checkbox" name="branch_2_3_answers[]" class="icheck required" value="Sass">Sass</label>
+											</div>
+											<hr>
+											<h6 class="add_bottom_15">Any particular notes?</h6>
+											<textarea class="form-control" style="height:100px; margin-bottom:0;" placeholder="Typer here" name="frontend_development_notes"></textarea>
+										</div>
+										<!-- /box_general -->
+									</div>
+								</div>
+								<!-- /row -->
+							</div>
+						</div>
+						<!-- /Web-Development > FrontEnd-Development ============================== -->
+						
+						<!-- Design > What Type of Design do you need ============================== -->
+						<div class="branch" id="Design">
+							<div class="step" data-state="budget">
+								<div class="question_title">
+									<h3>What Type of Design do you need?</h3>
+									<p>Multiple Selection (Checkbox based)</p>
+								</div>
+								<div class="row">
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_3_answer_1" type="checkbox" name="branch_3_answers[]" value="Web Design">
+											<label for="branch_3_answer_1"><img src="img/design_icon_2.svg" alt=""><strong>Web Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_3_answer_2" name="branch_3_answers[]" type="checkbox" value="Print Design">
+											<label for="branch_3_answer_2"><img src="img/design_icon_3.svg" alt=""><strong>Print Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<div class="item">
+											<input id="branch_3_answer_3" name="branch_3_answers[]" type="checkbox" value="Logo Design">
+											<label for="branch_3_answer_3"><img src="img/design_icon_4.svg" alt=""><strong>Logo Design</strong>Postea democritum mnesarchum ne nam, ad vim aperiri tractatos.</label>
+										</div>
+									</div>
+								</div>
+								<!-- /row-->
+							</div>
+							<!-- /Design > What Type of Design do you need ============================== -->
+							
+							<!-- Budget ============================== -->
+							<div class="step" id="budget" data-state="end">
+								<div class="question_title">
+									<h3>What is your buget?</h3>
+									<p>Touchscreen friendly Range Slider</p>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-5">
+										<div class="box_general">
+										<div class="rounded_slider">
+											<div id="budget_slider" style="margin: 0 auto 20px;"></div>
+											<p>Eu sed epicuri mentitum, ex mei hinc justo, no cum dictas deserunt gubergren. Ferri pericula sententiae eu pro.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- /row -->
+							</div>
+							<!-- /Budget ============================== -->
+							
+							<!-- Last step ============================== -->
+							<div class="submit step" id="end">
+								<div class="question_title">
+									<h3>Plase fill with your details</h3>
+									<p>Ei duo homero postea dignissim.</p>
+								</div>
+								<div class="row justify-content-center">
+									<div class="col-lg-5">
+										<div class="box_general">
+											<div class="form-group">
+												<input type="text" name="first_last_name" class="required form-control" placeholder="First and Last name">
+											</div>
+											<div class="form-group">
+												<input type="email" name="email" class="required form-control" placeholder="Your Email">
+											</div>
+											<div class="form-group">
+												<input type="text" name="telephone" class="form-control" placeholder="Your Telephone">
+											</div>
+											<div class="form-group add_bottom_30">
+												<div class="styled-select">
+													<select class="required" name="country">
+														<option value="" selected>Select your country</option>
+														<option value="Europe">Europe</option>
+														<option value="Asia">Asia</option>
+														<option value="North America">North America</option>
+														<option value="South America">South America</option>
+													</select>
+												</div>
+											</div>
+											<div class="checkbox_questions">
+												<input name="terms" type="checkbox" class="icheck required" value="yes">
+												<label>Please accept <a href="#" data-toggle="modal" data-target="#terms-txt">terms and conditions</a>.</label>
+											</div>
+										</div>
+										<!-- /box_general -->
+									</div>
+								</div>
+								<!-- /row -->
+							</div>
+							<!-- /Last step ============================== -->
+						</div>
+					</div>
+					<!-- /middle-wizard -->
+					<div id="bottom-wizard">
+						<button type="button" name="backward" class="backward">Back</button>
+						<button type="button" name="forward" class="forward">Next</button>
+						
+					</div>
+					<!-- /bottom-wizard -->
+				</form>
+			</div>
+			<!-- /Wizard container -->
+		</div>
+		<!-- /Container -->
+	</main>
+	<!-- /main -->
+	
+	
+	
+
+	<!-- /Modal terms -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/common_scripts.min.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/wizard_func_multiple_branch.js"></script>	
+	
+</body>
+</html>
