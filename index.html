@@ -72,19 +72,19 @@
 								<div class="col-lg-4">
 									<div class="item" id="saltwaterChoice">
 										<input id="answer_1" type="radio" name="branch_1_group_1" value="Seo-Optimization" class="required">
-										<label for="answer_1"><img src="img/icon-saltwater.png" alt=""><strong>Saltwater</strong></label>
+										<label for="answer_1"><img src="img/icon-saltwater.png" alt=""><strong>Saltwater</strong><p>Here is some info on Saltwater and what you can expect.</p></label>
 									</div>
 								</div>
 								<div class="col-lg-4">
 									<div class="item" id="freshwaterChoice">
 										<input id="answer_2" name="branch_1_group_1" type="radio" value="freshwaterFish" class="required">
-										<label for="answer_2"><img src="img/icon-freshwater.png" alt=""><strong>Freshwater</strong></label>
+										<label for="answer_2"><img src="img/icon-freshwater.png" alt=""><strong>Freshwater</strong><p>Here is some info on Freshwater and what you can expect.</p></label>
 									</div>
 								</div>
 								<div class="col-lg-4">
 									<div class="item" id="brackishChoice">
 										<input id="answer_3" name="branch_1_group_1" type="radio" value="brackish-fish" class="required">
-										<label for="answer_3"><img src="img/icon-brackish.png" alt=""><strong>Brackish Water</strong></label>
+										<label for="answer_3"><img src="img/icon-brackish.png" alt=""><strong>Brackish Water</strong><p>Here is some info on Brackish water and what you can expect.</p></label>
 									</div>
 								</div>
 							</div>
@@ -103,14 +103,14 @@
 								<div class="row">
 									<div class="col-lg-4">
 										<div class="item" id="saltwaterChoice">
-											<input id="branch_1_answer_1" type="radio" name="branch_1_answers[]" value="News" class="required">
-											<label for="branch_1_answer_1"><img src="img/icon-inshore.png" alt=""><strong>Inshore</strong></label>
+											<input id="branch_1_answer_1" type="radio" name="branch_1_answers[]" value="inshore-fish" class="required">
+											<label for="branch_1_answer_1"><img src="img/icon-inshore.png" alt=""><strong>Inshore</strong><p>Here is some info on fishing Inshore and what you can expect.</p></label>
 										</div>
 									</div>
 									<div class="col-lg-4">
 										<div class="item" id="freshwaterChoice">
-											<input id="branch_2_answer_2" name="branch_1_answers[]" type="radio" value="News" class="required">
-											<label for="branch_2_answer_2"><img src="img/icon-offshore.png" alt=""><strong>Offshore</strong></label>
+											<input id="branch_2_answer_2" name="branch_1_answers[]" type="radio" value="offshore-fish" class="required">
+											<label for="branch_2_answer_2"><img src="img/icon-offshore.png" alt=""><strong>Offshore</strong><p>Here is some info on fishing Offshore and what you can expect.</p></label>
 										</div>
 										
 								<!-- /row-->
@@ -120,7 +120,7 @@
 						</div>
 						</div>
 						<!--New-->
-						<div class="branch" id="News">
+						<div class="branch" id="inshore-fish">
 							<div class="step" data-state="branchtype">
 								<div class="question_title">
 									<h3>Looks like you might be fishing for some of these...</h3>
@@ -150,20 +150,51 @@
 													<input id="branch_4_answer_2" name="branch_1_answers[]" type="radio" value="Seo-Optimization" class="required">
 													<label class="yep" for="branch_4_answer_2"><strong>No</strong></label>
 												</div>
-												
-										<!-- /row-->
+										
 									</div>
-									<!-- /step -->
-								</div>	
-								
-								
-								
 									
-							<!-- /step -->
+								</div>	
+						
 						
 						</div>
 						</div>
+<!--New-->
+<div class="branch" id="offshore-fish">
+	<div class="step" data-state="branchtype">
+		<div class="question_title">
+			<h3>Looks like you might be fishing for some of these...</h3>
+			<div class="fish"><a class="dfn-hover" href=""><dfn data-info="Barracuda can be fished here:">Barracuda</dfn></a>&nbsp<dfn data-info="JavaScript is the programming language of HTML and the Web."> Bonito</dfn>&nbsp
+				<dfn data-info="Cobia can be fished here:">Cobia</dfn></a>&nbsp<dfn data-info="Croaker can be fished here:">Croaker</dfn></a>&nbsp
+				<dfn data-info="Mahi can be fished here:">Mahi</dfn></a>&nbsp<dfn data-info="Hogfish can be fished here:">Hogfish</dfn></a>&nbsp
+				<dfn data-info="Jack can be fished here:">Jack</dfn></a>&nbsp<dfn data-info="Mackeral can be fished here:">Mackeral</dfn></a>&nbsp
+				<dfn data-info="Permit can be fished here:">Permit</dfn></a>&nbsp<dfn data-info="Pompano can be fished here:">Pompano</dfn></a>&nbsp
+				<dfn data-info="Sea Bass can be fished here:">Sea Bass</dfn></a>&nbsp<dfn data-info="Snapper can be fished here:">Snapper</dfn></p></a>&nbsp
+				<dfn data-info="Wahoo can be fished here:">Wahoo</dfn></a>&nbsp<dfn data-info="Marlin can be fished here:">Marlin</dfn></a>&nbsp
+				<dfn data-info="Sailfish can be fished here:">Sailfish</dfn></a>&nbsp<dfn data-info="Swordfish can be fished here:">Swordfish</dfn></a>&nbsp
+			</div>
+			<h3>Did we get that right?</h3>
+			<p style="text-align:center">Select "YES" to proceed. Otherwise, select "NO"</p>
+				<div class="row" id="yesno">
+					
+					<div class="col-lg-4">
+						<div class="item" id="nope">
+							<input id="branch_11_answer_1" type="radio" name="branch_11_answers[]" value="offshore-bait" class="required">
+							<label class="yep" for="branch_11_answer_1"><strong>Yes</strong></label>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="item" id="yep">
+							<input id="branch_11_answer_2" name="branch_11_answers[]" type="radio" value="start" class="required">
+							<label class="yep" for="branch_11_answer_2"><strong>No</strong></label>
+						</div>
+				
+			</div>
+			
+		</div>	
 
+
+</div>
+</div>
 						<div class="branch" id="freshwaterFish">
 							<div class="step" data-state="branchtype">
 								<div class="question_title">
@@ -253,14 +284,14 @@
 										<div class="row">
 											<div class="col-lg-4">
 												<div class="item" id="saltwaterChoice">
-													<input id="branch_5_answer_1" type="radio" name="branch_1_answers[]" value="inshore-spin" class="required">
-													<label for="branch_5_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+													<input id="branch_5_answer_1" type="radio" name="branch_1_answers[]" value="inshore-bait" class="required">
+													<label for="branch_5_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong><p>Here is some info on Bait Casting and what you can expect.</p></label>
 												</div>
 											</div>
 											<div class="col-lg-4">
 												<div class="item" id="freshwaterChoice">
-													<input id="branch_5_answer_3" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
-													<label for="branch_5_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong></label>
+													<input id="branch_5_answer_3" name="branch_1_answers[]" type="radio" value="inshore-fly" class="required">
+													<label for="branch_5_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong><p>Here is some info on Fly Fishing and what you can expect.</p></label>
 												</div>
 												
 										<!-- /row-->
@@ -268,7 +299,7 @@
 									<div class="col-lg-4">
 										<div class="item" id="freshwaterChoice">
 											<input id="branch_5_answer_2" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
-											<label for="branch_5_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+											<label for="branch_5_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong><p>Here is some info on Spinning Reels and what you can expect.</p></label>
 										</div>
 										</div>
 										
@@ -288,22 +319,22 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="item" id="saltwaterChoice">
-						<input id="branch_6_answer_1" type="radio" name="branch_1_answers[]" value="inshore-spin" class="required">
-						<label for="branch_6_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+						<input id="branch_6_answer_1" type="radio" name="branch_1_answers[]" value="fresh-bait" class="required">
+						<label for="branch_6_answer_1"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong><p>Here is some info on Bait Casting and what you can expect.</p></label>
 					</div>
 				</div>
 				<div class="col-lg-4">
 					<div class="item" id="freshwaterChoice">
-						<input id="branch_6_answer_3" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
-						<label for="branch_6_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong></label>
+						<input id="branch_6_answer_3" name="branch_1_answers[]" type="radio" value="fresh-fly" class="required">
+						<label for="branch_6_answer_3"><img src="img/icon-flyfish.png" alt=""><strong>Fly Fishing</strong><p>Here is some info on Fly Fishing and what you can expect.</p></label>
 					</div>
 					
 			<!-- /row-->
 		</div>
 		<div class="col-lg-4">
 			<div class="item" id="freshwaterChoice">
-				<input id="branch_6_answer_2" name="branch_1_answers[]" type="radio" value="inshore-spin" class="required">
-				<label for="branch_6_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+				<input id="branch_6_answer_2" name="branch_1_answers[]" type="radio" value="fresh-spin" class="required">
+				<label for="branch_6_answer_2"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong><p>Here is some info on Spinning Reel and what you can expect.</p></label>
 			</div>
 			</div>
 			
@@ -322,15 +353,15 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="item" id="saltwaterChoice">
-						<input id="branch_10_answer_3" type="radio" name="branch_4_answers[]" value="inshore-spin" class="required">
-						<label for="branch_10_answer_3"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong></label>
+						<input id="branch_10_answer_3" type="radio" name="branch_4_answers[]" value="brackish-bait" class="required">
+						<label for="branch_10_answer_3"><img src="img/icon-baitcast.png" alt=""><strong>Bait Casting</strong><p>Here is some info on Bait Casting and what you can expect.</p></label>
 					</div>
 				</div>
 			
 		<div class="col-lg-4">
 			<div class="item" id="freshwaterChoice">
-				<input id="branch_10_answer_4" name="branch_4_answers[]" type="radio" value="inshore-spin" class="required">
-				<label for="branch_10_answer_4"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong></label>
+				<input id="branch_10_answer_4" name="branch_4_answers[]" type="radio" value="brackish-spin" class="required">
+				<label for="branch_10_answer_4"><img src="img/icon-spinningreel.png" alt=""><strong>Spinning Reel</strong><p>Here is some info on Spinning Reel and what you can expect.</p></label>
 			</div>
 			</div>
 			
@@ -343,10 +374,10 @@
 
 						<div></div>
 									<!-- Second branch Web-Development ============================== -->
-									<div class="step submit" id="inshore-bait">
+									<div class="submit step" id="inshore-bait">
 							
 										<div class="question_title">
-											<h3>Our picks for you (bait):</h3>
+											<h3>Our picks for you:</h3>
 											
 										</div>
 										<div class="row">
@@ -379,9 +410,10 @@
 									
 								</div>
 	<div></div>
-						<!-- Second branch Web-Development ============================== -->
-						<div class="submit step" id="inshore-fly">
-							
+	<!--FRESHWATER RESULTS-->
+						<!-- Start branch ============================== -->
+						<div class="branch" id="fresh-fly">
+							<div class="step">
 							<div class="question_title">
 								<h3>Our picks for you:</h3>
 								
@@ -412,15 +444,389 @@
 									</div>
 								</div>
 							</div>
-							
+							</div>
 						
 					</div>
 						
+<!-- end branch ============================== -->
 
-
-						<!-- Second branch Web-Development ============================== -->
+						<!-- Start branch ============================== -->
+						<div class="branch" id="fresh-spin">
+							<div class="step">
+							<div class="question_title">
+								<h3>Our picks for you:</h3>
+								
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+										<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+										<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4">
+									<div class="item">
+										<div class="rod">
+										<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+										<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+									</div>
+									</div>
+								</div>
+							</div>
+							</div>
+						
+					</div>
+						
+<!-- end branch ============================== -->
+<!-- Start branch ============================== -->
+										<div class="branch" id="fresh-bait">
+											<div class="step">
+											<div class="question_title">
+												<h3>Our picks for you:</h3>
+													
+											</div>
+											<div class="row">
+												<div class="col-lg-4">
+													<div class="item">
+														<div class="rod">
+														<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+														<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-4">
+													<div class="item">
+														<div class="rod">
+														<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+														<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-4">
+													<div class="item">
+														<div class="rod">
+														<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+														<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+													</div>
+													</div>
+												</div>
+											</div>
+											</div>
+											
+									</div>
+											
+					<!-- end branch ============================== -->
+		<!--BRACKISH RESULTS-->
+		<!-- Start branch ============================== -->
+		<div class="branch" id="brackish-bait">
+			<div class="step">
+			<div class="question_title">
+				<h3>Our picks for you:</h3>
+				
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="item">
+						<div class="rod">
+						<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+						<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="item">
+						<div class="rod">
+						<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+						<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+					</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="item">
+						<div class="rod">
+						<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+						<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
 		
-						<!-- /Second branch Web-Development ============================== -->
+	</div>
+	<!--End-->
+	<!--Start-->
+	<div class="branch" id="brackish-spin">
+		<div class="step">
+		<div class="question_title">
+			<h3>Our picks for you:</h3>
+			
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="item">
+					<div class="rod">
+					<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+					<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+				</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="item">
+					<div class="rod">
+					<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+					<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+				</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="item">
+					<div class="rod">
+					<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+					<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+				</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	
+</div>
+<!--End-->
+<!--INSHORE RESULTS-->
+<!--Start-->
+<div class="branch" id="inshore-bait">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="what" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--Start-->
+<div class="branch" id="inshore-fly">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--Start-->
+<div class="branch" id="inshore-spin">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--OFFSHORE RESULTS-->
+<!--Start-->
+<div class="branch" id="offshore-bait">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--Start-->
+<div class="branch" id="offshore-fly">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--Start-->
+<div class="branch" id="offshore-spin">
+	<div class="step">
+	<div class="question_title">
+		<h3>Our picks for you:</h3>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
+				<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
+				<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="item">
+				<div class="rod">
+				<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
+				<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+<!--End-->
+<!--End Results-->
+
 
 											
 						<!-- Web-Development > HTML-Development ============================== -->
@@ -470,42 +876,8 @@
 								<!-- /row -->
 							</div>
 						</div>
-						<!-- /Web-Development > HTML-Development ============================== -->
-						<div class="submit step" id="inshore-spin">
-							
-							<div class="question_title">
-								<h3>Our picks for you:</h3>
-								
-							</div>
-							<div class="row">
-								<div class="col-lg-4">
-									<div class="item">
-										<div class="rod">
-										<input id="branch_2_answer_1" type="radio" name="branch_2_group_1" value="HTML-Development" >
-										<label for="branch_2_answer_1"><img src="img/img-rod-1.jpg" alt=""><strong>Fishing Rod 1</strong>Really cool rod. </br> <a href="">View on Amazon</a></label>
-									</div>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="item">
-										<div class="rod">
-										<input id="branch_2_answer_2" name="branch_2_group_1" type="radio" value="CMS-Development" >
-										<label for="branch_2_answer_2"><img src="img/img-rod-2.jpg" alt=""><strong>Fishing Rod 2</strong>Another Great Rod </br> <a href="">View on Amazon</a></label>
-									</div>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="item">
-										<div class="rod">
-										<input id="branch_2_answer_3" name="branch_2_group_1" type="radio" value="FrontEnd-Development" >
-										<label for="branch_2_answer_3"><img src="img/img-rod-3.jpg" alt=""><strong>Fishing Rod 3</strong>You will catch so many fish. </br> <a href="">View on Amazon</a></label>
-									</div>
-									</div>
-								</div>
-							</div>
-							
-						
-					</div>
+						<!-- End ============================== -->
+			
 						<!-- Web-Development > CMS-Development ============================== -->
 						<div class="branch" id="CMS-Development">
 							<div class="step" data-state="budget">
