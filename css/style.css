@@ -31,11 +31,27 @@ Author URI: http://themeforest.net/user/Ansonika/
   margin-left: 300px;
   }
 
+  .add-fish-info {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
 .yep {
   margin-top: 30px;
   background-color: #323232;
   height: 110px;
   width: 200px;
+}
+
+[data-info]:after {
+  content: attr(data-info);
+  background-color: black;
+  color: white;
+  white-space: pre;
+  display: inline-block;
 }
 
 .fish {
@@ -71,7 +87,7 @@ dfn::after {
   position: absolute;
   top: 22px; left: 0;
   opacity: 0;
-  width: 230px;
+  width: 500px;
   font-size: 13px;
   font-weight: 700;
   line-height: 1.5em;
@@ -386,7 +402,7 @@ a.btn_1,
 .btn_1 {
   border: none;
   color: #fff;
-  background: #409fff;
+  background: #4B2504;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -408,7 +424,7 @@ a.btn_1,
 }
 a.btn_1:hover,
 .btn_1:hover {
-  background: #0073e5;
+  background: #4B2504;
   color: #fff;
 }
 
